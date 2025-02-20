@@ -1,3 +1,22 @@
 * {
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #120323;
+    color: #97bf04;
+}
+
+.container img {
+    border: solid 5px #d9043d;
+}
+
+aside {
+    background-color: #97bf04;
+}
+
+footer {
+    background-color: #d9043d
 }
