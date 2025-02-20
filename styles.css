@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow-x: hidden;
 }
 
 header {
@@ -14,7 +13,7 @@ header {
     text-align: center;
 }
 
-#header-container img {
+.header-container img {
     width: 200px;
     height: 200px;
 }
@@ -40,6 +39,10 @@ footer {
 @media screen and (max-width: 768px) {
     header {
         background-color:#120323;
+    }
+    .header-container img {
+        width: 200px;
+        height: 200px;
     }
 }
 
