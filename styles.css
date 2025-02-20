@@ -11,9 +11,10 @@ header {
     gap: 1rem;
     color: #97bf04;
     text-align: center;
+    overflow-x: hidden;
 }
 
-.header-container img {
+header .header-container img {
     width: 200px;
     height: 200px;
 }
