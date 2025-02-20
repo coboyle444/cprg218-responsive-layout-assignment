@@ -6,11 +6,20 @@
 header {
     display: flex;
     background-color: #120323;
+    background-size: cover;
+    gap: 1rem;
     color: #97bf04;
+    text-align: center;
+}
+
+#header-container img {
+    width: 200px;
+    height: 200px;
 }
 
 #container img {
     border: solid 5px #d9043d;
+    width: 100%;
 }
 
 aside {
@@ -20,3 +29,4 @@ aside {
 footer {
     background-color: #d9043d
 }
+
