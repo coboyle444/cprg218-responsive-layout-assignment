@@ -38,6 +38,9 @@ footer {
 @media screen and (max-width: 768px) {
     header {
         background-color:#120323;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .header-container img {
         width: 200px;
