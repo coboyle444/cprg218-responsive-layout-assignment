@@ -69,8 +69,8 @@ footer {
 }
 
 @media screen and (min-width: 1000px) {
-    main {
-        flex: 3;
-    }
+   body {
+    flex: 3;
+   }
     
 }
