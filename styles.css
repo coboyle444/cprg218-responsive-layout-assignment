@@ -13,9 +13,9 @@ header {
     text-align: center;
 }
 
-header .header-container img {
-    width: 200px;
-    height: 200px;
+.header-container img {
+    width: 100px;
+    height: auto;
 }
 
 #container img {
