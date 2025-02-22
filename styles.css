@@ -5,6 +5,10 @@
 
 header {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 75%;
     margin: 0%;
     background-color: #120323;
     background-size: cover;
@@ -18,7 +22,7 @@ header {
     height: auto;
 }
 
-#container img {
+figure img {
     border: solid 5px #d9043d;
     width: 100%;
 }
@@ -40,41 +44,26 @@ footer {
     background-color: #d9043d
 }
 
-@media screen and (max-width: 768px) {
-    header {
-        background-color:#120323;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 75%;
-    }
-    .header-container img {
-        width: 100px;
-        height: auto;
-    }
-}
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 769px) {
     header {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 100%;
-        padding: 2em;
     }
-    #container img {
-        display: flex;
-        width: 200px;
-        height: auto;
+    figure img {
+        flex-direction: row;
     }
     main {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        gap: 10px;
-        flex: 1;
+    }
+    figure img {
+        max-width: 300px;
+        height: auto;
     }
 }
 
+@media screen and (min-width: 1000px) {
+
+}
