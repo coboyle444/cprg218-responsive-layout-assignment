@@ -55,15 +55,22 @@ footer {
     }
     #container img {
         max-width: 300px;
+        max-height: 250px;
         flex-direction: row;
+        align-items: center;
     }
     figure {
         display: flex;
         flex-direction: row;
         gap: 1em;
+        align-items: center;
+        font-size: 90%;
     }
 }
 
 @media screen and (min-width: 1000px) {
-
+    main {
+        flex: 3;
+    }
+    
 }
