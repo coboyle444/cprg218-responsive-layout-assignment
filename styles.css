@@ -69,8 +69,14 @@ footer {
 }
 
 @media screen and (min-width: 1000px) {
-   body {
+   #container {
+    display: flex;
     flex: 3;
+   }
+   aside {
+    padding: 10px;
+    margin-top: 30px;
+    gap: 2em;
    }
     
 }
