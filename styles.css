@@ -29,9 +29,12 @@ body {
 
 aside {
     background-color: #97bf04;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
 footer {
+    padding: 1em;
     background-color: #d9043d
 }
 
